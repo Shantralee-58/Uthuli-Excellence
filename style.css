@@ -1,0 +1,150 @@
+body {
+  background: #b8860b;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  color: goldenrod;
+  min-height: 500px;
+  font-size: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b1d21;
+  padding: 0 20px;
+  height: 100px; /* same as logo height */
+}
+
+.logo {
+  width: 140px; 
+  height: 100px;
+  margin-right: 20px; 
+  float: left;
+  border-radius: 130px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  align-items: baseline;
+  margin: 0;
+  background-color: #1b1d21; 
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  justify-content: space-between;
+  color: goldenrod;
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section {
+  padding: 40px; 
+}
+
+.section h2, .section h3 {
+  color: #1b1d21; 
+}
+
+.section p {
+  font-size: 16px;
+  color: #333; 
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  width: 48%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.signup-button {
+  margin-left: auto;
+}
+
+.signup-button a {
+  color: black;
+  background-color: goldenrod;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button a:hover {
+  background-color: lightgray;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+  background-color: #333;
+}
+
+.signup-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: goldenrod;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.form-group button {
+  background-color: goldenrod;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1b1d21;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
