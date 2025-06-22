@@ -106,6 +106,12 @@ header {
   background-color: #333;
 }
 
+.container {
+  max-width: 100%;
+  width: 90%;
+}
+
+
 .signup-container h2 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -148,3 +154,19 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+}
+
